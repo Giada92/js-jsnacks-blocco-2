@@ -47,7 +47,7 @@ for (var i = 0; i < squadre.length; i++) {
     squadre[i].puntiFatti = getRndInteger(0, 100);
     squadre[i].falliSubiti = getRndInteger(0, 100);
 
-    nuovoArray.push(squadre[i].nome, squadre[i].falliSubiti); 
+    nuovoArray.push(squadre[i].nome + ": " + squadre[i].falliSubiti + " falli subiti"); 
 }
 
 console.log(squadre);
